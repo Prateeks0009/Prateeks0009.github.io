@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: #000000;
+    color: #ffffff;
+}
+
+#header{
+
+    background-position:center;
+    background-size: cover;    
+
+}
+
+nav{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: grey;
+}
+nav p{
+    padding-left: 120px;
+    font-size: 25px;
+}
+nav ul li{
+    padding-right: 30px;
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration:none ;
+}
+nav ul li a:hover{
+    color: lavender;
+    font-size: 1.03rem;
+
+}
+.firstsection{
+    display: flex;
+    justify-content:space-around;
+    margin: 60px ;
+    align-items:center;
+   
+}
+
+.leftsection{
+    
+    width: 45%;
+
+}
+.rightsection{
+    width: 50%;
+    font-size: 2.5rem;
+    margin-left: 15%;
+    margin-top: 30%;
+
+}
+.btn{
+    font-size: 20px;
+    background: #ff004f;
+    border: 3px;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    margin: 2px;
+}
+}
+.red{
+    color:#ff004f;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+.aboutleft{
+    width: 50%;
+    font-size: 1.3rem;
+}
+
+
+.aboutright{
+    width: 50%;
+}
+.aboutright img{
+    margin: 20%;
+    width: 75%;
+    height: 75%;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 5%;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+     margin-top: 30px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    display: inline-block;
+    color: #ffffff;
+}
+.social-icons a:hover{
+    color: blue;
+    font-size: 1.001rem;
+}
+.contact-right form{
+    width: 100%;
+}
+form input , form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size:18px;
+    border-radius: 6px;
+
+}
+form .btn2{
+    display: inline-block;
+    background: #ff004f;
+    padding: 14px 60px;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor:pointer;
+}
